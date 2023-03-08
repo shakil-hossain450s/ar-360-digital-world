@@ -36,7 +36,7 @@ const WebsiteFooter = () => {
             <Footer container={true}>
                 <div className="w-full">
                     <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-                        <div>
+                        <div className='mb-5'>
                             <Link to='/'>
                                 <h2 className='flex'>
                                     <img

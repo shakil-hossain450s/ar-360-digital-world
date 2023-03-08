@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom"
 
 const Navigation = () => {
     return (
-        <div className='shadow-xl pr-5'>
+        <div className='shadow-md pr-5'>
             <Navbar
                 fluid={true}
                 rounded={true}
@@ -21,6 +21,10 @@ const Navigation = () => {
                         </span>
                     </Navbar>
                 </NavLink>
+                <div className='ease-in-out duration-500'>
+                    <Navbar.Toggle />
+                </div>
+
                 <Navbar.Collapse>
                     <Navbar.Link
                         to="/"
@@ -30,19 +34,19 @@ const Navigation = () => {
                     </Navbar.Link>
                     <Navbar.Link href="/navbars">
                         <span className='font-medium'>About</span>
-                        
+
                     </Navbar.Link>
                     <Navbar.Link href="/navbars">
                         <span className='font-medium'>Services</span>
-                        
+
                     </Navbar.Link>
                     <Navbar.Link href="/navbars">
                         <span className='font-medium'>Pricing</span>
-                        
+
                     </Navbar.Link>
                     <Navbar.Link href="/navbars">
                         <span className='font-medium'>Contact</span>
-                        
+
                     </Navbar.Link>
                 </Navbar.Collapse>
             </Navbar>
