@@ -42,14 +42,10 @@ const ServiceWeProvide = () => {
                                 <h2 className='lg:text-4xl text-[20px] font-semibold'>{counterOn && info.countNumber}+</h2>
                                 <p className='text-sm'>{info.text}</p>
                             </div>
-                            <div className='border-r-2'></div>
                         </div>)
                     }
                 </div>
             </ScrollTrigger>
-            <div>
-
-            </div>
         </section >
     );
 };
