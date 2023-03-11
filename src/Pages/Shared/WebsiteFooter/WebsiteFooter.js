@@ -27,7 +27,7 @@ const WebsiteFooter = () => {
             id: 4,
             icon: <FaLinkedinIn></FaLinkedinIn>,
             classes: "text-2xl text-gray-700 hover:-translate-y-1 hover:scale-125 ease-in-out duration-300",
-            location: "https://www.github.com/"
+            location: "https://bd.linkedin.com/"
         }
     ];
 
@@ -99,6 +99,7 @@ const WebsiteFooter = () => {
                                     key={social.id}
                                     to={social.location}
                                     className={social.classes}
+                                    target="_blank"
                                 >
                                     {social.icon}
                                 </Link>)
